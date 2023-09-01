@@ -1,0 +1,17 @@
+Goal:
+Given a revision file and an OMRON file, compare the two inputs and output the changes there may be.
+
+Notes: 
+To create .exe file, delete all 'build' and 'dist' and '.spec' files, go to cmd and type "pyinstaller --onefile RevisionCompareToolVx.x.py"
+For each update, remember to:
+	Change the version number in banner, as well as the version number when writing file.
+
+
+PATCH UPDATES:
+Version 1.0:
+Note: May handle certain 'duplicate' scenarios unexpectedly:
+	Duplicates of REFs in the OMRON file may have differing IPNs (due to user input), and it will not detect an error.
+	This scenario is caused by human error when inputting the IPNs to OMRON.
+
+Version 1.01:
+Fixed typo in the output, added file clarification in the .exe
