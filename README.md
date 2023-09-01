@@ -1,5 +1,5 @@
 # CreationTechnologiesProjects
-This contains projects (in Python) that can be used in Creation Technologies.
+This contains projects (in Python) that are used by engineers in Creation Technologies, a manufacturing company.
 
 Revision Compare Tool:
 Given two revision files (old and new), compare and compile the differences between the two: list all of the 
