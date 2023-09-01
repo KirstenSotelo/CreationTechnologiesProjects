@@ -1,6 +1,13 @@
+Context: 
+A revision file contains the necessary information to create a PCB. Each line of these files should
+contain a reference designator (REF), and individual part number (IPN), as well as other less important information (x, y, rotation, description). 
+REFs are unique; each REF exists only once in each file, however multiple REFs can have the same IPN
+A revision may update due to one reason or another, and this tool should point out the differences between the old revision versus the new revision.
+
 Goal:
 Given two revision files (old and new), compare and compile the differences between the two: list all of the 
 added, removed, and/or changed from and to the new revision. 
+
 
 Notes: 
 To create .exe file, delete all 'build' and 'dist' and '.spec' files, go to cmd and type "pyinstaller --onefile RevisionCompareToolVx.x.py"
