@@ -1,5 +1,8 @@
 Goal:
 Given a revision file and an OMRON file, compare the two inputs and output the changes there may be.
+If done right, there should be NO differences, and this tool should verify that there are no differences. If there are differences,
+the OMRON file needs to be adjusted as the tool says.
+
 
 Notes: 
 To create .exe file, delete all 'build' and 'dist' and '.spec' files, go to cmd and type "pyinstaller --onefile RevisionCompareToolVx.x.py"
