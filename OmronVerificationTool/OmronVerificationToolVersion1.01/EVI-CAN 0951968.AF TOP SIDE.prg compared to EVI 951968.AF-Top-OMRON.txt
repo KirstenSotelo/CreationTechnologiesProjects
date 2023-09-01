@@ -1,0 +1,19 @@
+Omron Verification Tool Version: 1.0
+Date Created: 'Aug-21-2023 16:50:14'
+
+Revision File: 'EVI-CAN 0951968.AF TOP SIDE.prg'		Lines: 1078
+Omron File: 'EVI 951968.AF-Top-OMRON.txt'	Lines: 1069
+
+CHANGES:
+
+Removed 9 Items in Next File (Removed from 'EVI-CAN 0951968.AF TOP SIDE.prg'): 
+REF	IPN
+FB46	0238106
+R262	0677019
+R506	0677122
+C403	0677292
+C701	0677292
+C705	0677412
+C707	0785102
+C402	0830056
+C684	0830056

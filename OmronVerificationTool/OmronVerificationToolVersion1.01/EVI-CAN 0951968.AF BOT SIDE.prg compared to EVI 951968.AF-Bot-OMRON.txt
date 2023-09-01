@@ -1,0 +1,7 @@
+Omron Verification Tool Version: 1.0
+Date Created: 'Aug-21-2023 16:48:36'
+
+Revision File: 'EVI-CAN 0951968.AF BOT SIDE.prg'		Lines: 613
+Omron File: 'EVI 951968.AF-Bot-OMRON.txt'	Lines: 613
+
+No Changes Between 'EVI-CAN 0951968.AF BOT SIDE.prg' and 'EVI 951968.AF-Bot-OMRON.txt'
