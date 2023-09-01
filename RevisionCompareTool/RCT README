@@ -1,0 +1,24 @@
+Goal:
+Given two revision files (old and new), compare and compile the differences between the two: list all of the 
+added, removed, and/or changed from and to the new revision. 
+
+Notes: 
+To create .exe file, delete all 'build' and 'dist' and '.spec' files, go to cmd and type "pyinstaller --onefile RevisionCompareToolVx.x.py"
+For each update, remember to:
+	Change the version number in banner, as well as the version number when writing file.
+
+
+PATCH UPDATES:
+Version 1.1: DO NOT USE - FLAW IN CODE (prints 'removed in next revision' twice).
+Added date and time of the creation of the file; some format changes in the output.
+When finished, .exe will remain open instead of instantly closing. 
+
+Version 1.2:
+Fixed typos, update "No changes in next revision" output
+When finished, .exe will close after 5 seconds after printing if a new file has been created or not.
+List is sorted by IPN, then REF, as opposed to the original REF then IPN.
+Added Version number in the output.
+
+Version 1.2.1: 
+Fixed bugs: Printing changedInNext still prints when there is no items in changedInNext
+.exe will close after 3 seconds after confirmation line.
