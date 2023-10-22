@@ -1,3 +1,4 @@
+THIS PROJECT IS A CURRENT WORK IN PROGRESS: This project is 90% done, however need to test more and polish code, polish output.
 Notes: 
 To convert .ipynb (notebook file) to .py command on cmd is:
 	jupyter nbconvert --to script xxx.ipynb
@@ -9,8 +10,6 @@ For each update, remember to:
 GOAL:
 Read from 2 inputs, collect certain data from each, and create a readable and printable pdf.
 This project will use the Python libraries such as Pandas for reading excel sheets, and reportlab for creating PDF
-
-This project is 90% done, however need to test more and polish code, polish output.
 
 Main notebook: Project2.ipynb
 Main Input: Input 2---Creation_Consolidated_WIP_Job__050723 (1) - Copy.xlsx
